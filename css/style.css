@@ -13,6 +13,7 @@ body {
     border-radius: 5px;
     width: 160px;
     height: 65px;
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -43,3 +44,17 @@ body {
         font-size: 65px;
         font-weight: 700;
 }
+/* Failure section style here */
+.failure-section{
+    display: flex;
+    justify-content: space-evenly;
+    }
+.secondary-title{
+        color:  #151414;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+}
+.failure-text{
+    width: 525px;
+    }
