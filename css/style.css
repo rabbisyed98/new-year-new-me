@@ -5,6 +5,10 @@ body {
     font-family: Work Sans;
 }
 
+.center{
+    text-align: center;
+}
+
 .btn {
     color: #FFF;
     font-size: 20px;
@@ -57,4 +61,14 @@ body {
 }
 .failure-text{
     width: 525px;
-    }
+    margin-left: 90px;
+}
+
+/* My Plan section styles  */
+
+.my-plans{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
