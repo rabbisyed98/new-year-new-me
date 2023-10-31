@@ -107,18 +107,6 @@ body {
     padding-top: 10px;
 }
 
-footer {
-    height: 577px;
-    width: 100%;
-    background-color: #151414;
-    color: white;
-    padding: 130px 230px;
-}
-
-/* .future-section {
-    color: white;
-} */
-
 .future-title {
     color: #F8F8F8;
     font-size: 45px;
@@ -132,6 +120,36 @@ footer {
     line-height: 26px;
     /* 162.5% */
 }
-.icons{
+
+.icons {
     margin-right: 20px;
+}
+
+footer {
+    height: 577px;
+    background-color: #151414;
+    color: white;
+    padding: 130px 230px;
+    display: flex;
+}
+.subscribe{
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.subscribe-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input {
+    display: block;
+    border: solid 1px white;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
 }
